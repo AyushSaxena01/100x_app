@@ -13,29 +13,11 @@
     rel="stylesheet" />
 </head>
 
-<body class="bg-neutral-950 flex flex-row items-center justify-center py-60 px-44 gap-x-8">
+<body class="bg-neutral-950 flex flex-col items-center justify-center py-60 px-44 gap-y-8">
+
+  <div class="flex flex-row gap-x-8 items-center"> 
   <div class="flex flex-col gap-y-8">
     <!-- White buttons -->
-
-    <div>
-      <button
-        class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-neutral/200 disabled:opacity-50">
-        <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-          Create account
-        </span>
-      </button>
-    </div>
-   
-  
-    <div>
-      <!-- sign up outline-->
-      <button
-        class="bg-black py-2 px-6 w-80.5 rounded-8xl flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
-        <span class="text-twitter-blue-default text-base font-bold not-italic leading-1.2 font-Inter text-center">
-          Sign up
-        </span>
-      </button>
-    </div>
     <div class="flex flex-row gap-x-8">
       <div>
         <!-- follow -->
@@ -46,8 +28,49 @@
           </span>
         </button>
       </div>
-     
+  
+      <div>
+        <!-- following outline -->
+        <button
+          class="py-1.5 px-4 rounded-8xl inline-flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
+          <span class="text-neutral/50 text-sm font-bold not-italic leading-1.2 font-Inter text-center">
+            Following
+          </span>
+        </button>
+      </div>
     </div>
+
+    <div>
+      <!-- sign up outline-->
+      <button
+        class="bg-black py-2 px-6 w-80.5 rounded-8xl flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
+        <span class="text-twitter-blue-default text-base font-bold not-italic leading-1.2 font-Inter text-center">
+          Sign up
+        </span>
+      </button>
+    </div>
+   
+    <div>
+      <!-- create account button -->
+      <button
+        class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-neutral/200 disabled:opacity-50">
+        <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+          Create account
+        </span>
+      </button>
+    </div>
+
+    <div>
+      <!-- Sign up with Google -->
+      <button
+        class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex flex-row gap-x-2 justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
+        <img class="h-6 w-6 shrink-0" src="../public/images/google.svg" alt="google logo" />
+        <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+          Sign up with Google
+        </span>
+      </button>
+    </div>
+  
     <div>
       <!-- next -->
       <button
@@ -57,36 +80,18 @@
         </span>
       </button>
     </div>
-   
-    <div>
-      <!-- following outline -->
-      <button
-        class="py-1.5 px-4 rounded-8xl inline-flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
-        <span class="text-neutral/50 text-sm font-bold not-italic leading-1.2 font-Inter text-center">
-          Following
-        </span>
-      </button>
-    </div>
-    <div>
-      <button
-        class="py-3 px-6 w-80.5 rounded-8xl flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
-        <span class="text-twitter-blue-default text-base font-bold not-italic leading-1.2 font-Inter text-center">
-          Sign up
-        </span>
-      </button>
-    </div>
-    <div>
-      <button
-        class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-        <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-          Create account
-        </span>
-      </button>
-    </div>
   </div>
   <div class="flex flex-col gap-y-8">
     <!-- blue-buttons -->
-
+    <div>
+      <!-- post small -->
+      <button
+        class="bg-twitter-blue-default py-3 px-6 rounded-4xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
+        <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+          Post
+        </span>
+      </button>
+    </div>
     <div>
       <!-- post big -->
       <button
@@ -97,34 +102,7 @@
       </button>
     </div>
    
-    <div class="grid grid-cols-3 grid-rows-2 gap-4">
-      <div>
-        <!-- post small -->
-        <button
-          class="bg-twitter-blue-default py-3 px-6 rounded-4xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
-          <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Post
-          </span>
-        </button>
-      </div>
-     
-      <div>
-        <button
-          class="bg-twitter-blue-disabled py-2 px-6 rounded-4xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-          <span class="text-neutral/400 text-sm leading-1.2 not-italic font-bold text-center font-Inter">
-            Post
-          </span>
-        </button>
-      </div>
-      <div>
-        <button
-          class="bg-twitter-blue-default py-2 px-6 rounded-4xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-          <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Post
-          </span>
-        </button>
-      </div>
-    </div>
+   
 
     <div>
       <!-- post big -->
@@ -136,41 +114,9 @@
       </button>
     </div>
    
-    <div>
-      <button
-        class="bg-twitter-blue-default px-2.8 py-3.8 rounded-12xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-        <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-          Post
-        </span>
-      </button>
-    </div>
+   
   </div>
   <div class="flex flex-col gap-y-8">
-    <div>
-      <button
-        class="bg-twitter-blue-default px-2.8 py-3.8 rounded-12xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-        <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-          Post
-        </span>
-      </button>
-    </div>
-    <div>
-      <button
-        class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-        <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-          Create account
-        </span>
-      </button>
-    </div>
-    <div>
-      <button
-        class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex flex-row gap-x-2 justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-        <img class="h-6 w-6 shrink-0" src="../public/images/google.svg" alt="google logo" />
-        <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-          Sign up with Google
-        </span>
-      </button>
-    </div>
 
     <div>
       <div class="flex flex-col gap-y-5">
@@ -205,15 +151,59 @@
           <img class="w-6 h-6" src="../public/images/correct.svg" alt="correct icon" />
           <img class="w-6 h-6" src="../public/images/material-symbols_add-a-photo-outline.svg" alt="camera icon" />
         </div>
-        <div class="flex flex-row gap-x-5 items-center">
+        <div class="flex flex-row gap-x-5">
           <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16 bg-neutral-900">
             <img class="w-6 h-6" src="../public/images/visible=T.svg" alt="eye icon" />
             <img class="w-6 h-6" src="../public/images/visible=F.svg" alt="eye icon" />
           </div>
+          <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
+            <div>
+              <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 5.69L17 10.19V18H15V12H9V18H7V10.19L12 5.69ZM12 3L2 12H5V20H11V14H13V20H19V12H22L12 3Z"/>
+              </svg>
+            </div>
+            <div>
+              <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24">
+  
+                <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z">
+              </svg>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
+
+            <svg class="w-6 h-6 p-1 box-border fill-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" fill="none">
+              <path d="M1 15C1 13.9391 1.42143 12.9217 2.17157 12.1716C2.92172 11.4214 3.93913 11 5 11H13C14.0609 11 15.0783 11.4214 15.8284 12.1716C16.5786 12.9217 17 13.9391 17 15C17 15.5304 16.7893 16.0391 16.4142 16.4142C16.0391 16.7893 15.5304 17 15 17H3C2.46957 17 1.96086 16.7893 1.58579 16.4142C1.21071 16.0391 1 15.5304 1 15Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M9 7C10.6569 7 12 5.65685 12 4C12 2.34315 10.6569 1 9 1C7.34315 1 6 2.34315 6 4C6 5.65685 7.34315 7 9 7Z" stroke="white" stroke-width="2"/>
+              </svg>
+            
+            <svg class="w-6 h-6 box-border fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+            <path d="M1 15C1 13.9391 1.42143 12.9217 2.17157 12.1716C2.92172 11.4214 3.93913 11 5 11H13C14.0609 11 15.0783 11.4214 15.8284 12.1716C16.5786 12.9217 17 13.9391 17 15C17 15.5304 16.7893 16.0391 16.4142 16.4142C16.0391 16.7893 15.5304 17 15 17H3C2.46957 17 1.96086 16.7893 1.58579 16.4142C1.21071 16.0391 1 15.5304 1 15Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M9 7C10.6569 7 12 5.65685 12 4C12 2.34315 10.6569 1 9 1C7.34315 1 6 2.34315 6 4C6 5.65685 7.34315 7 9 7Z" stroke="white" stroke-width="2"/>
+            </svg>            
+          </div>
+  
         </div>
       </div>
     </div>
   </div>
+</div>
+<div class="flex justify-center">
+
+  <div class="flex box-border w-117 h-14.5 pt-5 pr-20 pb-0 pl-20 justify-center items-center flex-shrink-0 gap-x-40 border-b border-solid border-neutral/700">
+<div class="flex flex-col items-center justify-center gap-y-4">
+  <div class="font-Inter text-base not-italic leading-1.2 font-medium text-neutral/400 peer">
+For you
+  </div>
+  <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl"></div>
+</div>
+<div class="flex pb-0 justify-center items-center">
+<div class="font-Inter text-base not-italic font-medium leading-1.2 text-neutral/50">
+  Following
+</div>
+</div>
+  </div>
+
+</div>
 </body>
 
 </html>
