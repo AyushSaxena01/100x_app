@@ -96,6 +96,9 @@ module.exports = {
         "8xl":"4.0625rem",
         "4xl":"1.875rem"
       },
+      borderWidth:{
+        "3":"3px",
+      },
       padding:{
         "0.3":"0.09894rem",
         "0.4":"0.11138rem",

@@ -145,11 +145,11 @@
             <img class="w-3.85 h-4.4" src="../public/images/share-sv-blue.svg" alt="share icon" />
           </div>
           <div class="flex flex-row gap-x-5 items-center">
-            <button><img class="w-6 h-6" src="../public/images/cancel.svg" alt="cancel icon" /></button>
-            <button><img class="w-6 h-6" src="../public/images/back.svg" alt="back icon" /></button>
-            <button><img class="w-6 h-6" src="../public/images/settings.svg" alt="setting icon" /></button>
-            <button><img class="w-6 h-6" src="../public/images/correct.svg" alt="correct icon" /></button>
-            <button> <img class="w-6 h-6" src="../public/images/material-symbols_add-a-photo-outline.svg" alt="camera icon" /></button>
+            <img class="w-6 h-6" src="../public/images/cancel.svg" alt="cancel icon" />
+            <img class="w-6 h-6" src="../public/images/back.svg" alt="back icon" />
+            <img class="w-6 h-6" src="../public/images/settings.svg" alt="setting icon" />
+        <img class="w-6 h-6" src="../public/images/correct.svg" alt="correct icon" />
+            <img class="w-6 h-6" src="../public/images/material-symbols_add-a-photo-outline.svg" alt="camera icon" />
           </div>
           <div class="flex flex-row gap-x-5">
             <div class="flex flex-col justify-center items-center h-28 w-16 bg-neutral-900">
@@ -161,18 +161,17 @@
              </button>
             </div>
             <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
-              <button>
-                <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <button class="group">
+                <svg class="w-6 h-6 fill-white  group-focus:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path
                     d="M12 5.69L17 10.19V18H15V12H9V18H7V10.19L12 5.69ZM12 3L2 12H5V20H11V14H13V20H19V12H22L12 3Z" />
                 </svg>
-              </button>
-              <button>
-                <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <svg class="w-6 h-6  fill-white hidden group-focus:flex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 
                   <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z">
                 </svg>
               </button>
+             
             </div>
             <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
               <button class="group">
@@ -197,17 +196,18 @@
 
     <div
       class="flex box-border w-117 h-14.5 pt-5 pr-20 pb-0 pl-20 justify-center items-center flex-shrink-0 gap-x-40 border-b border-solid border-neutral/700">
-      <div class="flex flex-col items-center justify-center gap-y-4">
-        <div class="font-Inter text-base not-italic leading-1.2 font-medium text-neutral/400 peer">
+      <button class="flex flex-col items-center justify-center gap-y-4 group">
+        <div class="font-Inter text-base not-italic leading-1.2  font-medium text-neutral/50 group-focus:text-neutral/400">
           For you
         </div>
-        <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl"></div>
-      </div>
-      <div class="flex pb-0 justify-center items-center">
-        <div class="font-Inter text-base not-italic font-medium leading-1.2 text-neutral/50">
+        <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl hidden group-focus:flex"></div>
+      </button>
+      <button class="flex pb-0 justify-center items-center flex-col gap-y-4 group">
+        <div class="font-Inter text-base not-italic font-medium leading-1.2 text-neutral/50 group-focus:text-neutral/400">
           Following
         </div>
-      </div>
+        <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl hidden group-focus:flex"></div>
+      </button>
     </div>
 
   </div>
