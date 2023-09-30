@@ -28,6 +28,7 @@ module.exports = {
         "error":"#8B141A",
         "stroke":["rgba(29, 155, 240, 0.24)","rgba(255, 255, 255, 0.24)"],
         "neutral/1000":"#000000",
+        "secondary":"rgba(255, 255, 255, 0.6)",
   
       },
       fontFamily:{
@@ -91,7 +92,7 @@ module.exports = {
         "36.5":"9.07738rem",
         "48.5":"12.4375rem",
         "88":"22.1875rem",
-        "130.4":"54.25rem",
+        "130.4":"51.5rem",
       },
       backdropBlur:{
         "23.6px":"23.668209075927734px"

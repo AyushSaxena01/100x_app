@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    class="bg-neutral/1000 flex flex-col items-center gap-y-3 justify-start h-130.4 pt-0 flex-shrink-0"
+  >
+    <header class="flex items-center w-96.5 pt-0 px-3.8">
+        <div class="flex py-3 px-0 items-center self-stretch gap-x-5">
+            <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M18 6L6 18"
+                    stroke="#F9F9F9"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6 6L18 18"
+                    stroke="#F9F9F9"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <span
+                class="text-neutral/50 font-Interr font-bold not-italic leading-1.2 text-m"
+              >
+                Step 2 of 4
+              </span>
+        </div>
+    
+    </header>
+
+    <main class="w-96.5 px-3.8">
+      <!-- form -->
+      <div class="flex flex-col items-start gap-y-5 self-stretch">
+        <span
+          class="text-neutral/50 font-inter font-bold text-2xl not-italic leading-1.2"
+          >Create your account</span
+        >
+       <div class="flex flex-col items-center self-stretch gap-y-8">
+        <!-- Name -->
+        <fieldset
+          class="flex items-center justify-between self-stretch py-4 px-3 box-border rounded border border-solid border-neutral/500 focus-within:border-twitter-blue-default gap-y-2.5 group/input"
+        >
+          <legend
+            class="font-medium font-Inter box-border py-0 px-1 inline-flex text-xs not-italic text-neutral/500 leading-1.2 group-focus-within/input:text-twitter-blue-default"
+          >
+            Name
+          </legend>
+          <input
+            class="w-full flex bg-neutral/1000 font-Inter text-xl text-twitter-white-100 font-normal leading-1.2 not-italic placeholder-neutral/500 group-focus-within/input:outline-none peer"
+            type="text"
+            placeholder="Name"
+          />
+          <img class="w-6 h-6 invisible peer-focus:visible" src="../public/images/correct.svg" alt="correct icon">
+        </fieldset>
+        <fieldset
+          class=" flex items-center justify-between self-stretch py-4 px-3 box-border rounded border border-solid border-neutral/500 focus-within:border-twitter-blue-default gap-y-2.5 group/input"
+        >
+          <legend
+            class="font-medium font-Inter box-border py-0 px-1 inline-flex text-xs not-italic text-neutral/500 leading-1.2 group-focus-within/input:text-twitter-blue-default"
+          >
+            Email
+          </legend>
+          <input type="email"
+            class="w-full flex bg-neutral/1000 font-Inter text-xl text-twitter-white-100 font-normal leading-1.2 not-italic placeholder-neutral/500 group-focus-within/input:outline-none peer"
+            placeholder="Email"
+          />
+          <img class="w-6 h-6 invisible peer-valid:visible" src="../public/images/correct.svg" alt="correct icon">
+        </fieldset>        
+        <!-- Date -->
+          <fieldset
+            class=" flex items-center justify-between self-stretch py-4 px-3 box-border rounded border border-solid border-neutral/500 focus-within:border-twitter-blue-default gap-y-2.5 group/input"
+          >
+            <legend
+              class="font-medium font-Inter box-border py-0 px-1 inline-flex text-xs not-italic text-neutral/500 leading-1.2 group-focus-within/input:text-twitter-blue-default"
+            >
+              Date of Birth
+            </legend>
+            <input type="text"
+            class="w-full flex bg-neutral/1000 font-Inter text-xl text-twitter-white-100 font-normal leading-1.2 not-italic placeholder-neutral/500 group-focus-within/input:outline-none peer"
+            placeholder="Date Of Birth"
+          />
+           <img class="w-6 h-6 invisible peer-focus:visible" src="../public/images/correct.svg" alt="correct icon">
+           </fieldset>
+        </div>
+      </div>
+    </main>
+    <footer class="flex flex-grow flex-shrink-0 basis-0 px-3.8 w-96.5 pb-5">
+        <div class="flex pt-20 pb-0 flex-col justify-end items-center gap-y-5 flex-grow flex-shrink-0 basis-0 self-stretch"
+        >
+        <button
+        class="bg-twitter-blue-default p-5 self-stretch rounded-12xl flex justify-center items-center box-border shadow-btn backdrop-blur-23.6px">
+        <a href="step-3.html" class="text-neutral/50 text-base font-bold not-italic leading-1.2 font-Inter text-center">
+          Sign up
+        </a>
+      </button>
+    </div>
+    </footer>
+  </body>
+</html>

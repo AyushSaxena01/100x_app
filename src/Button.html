@@ -14,213 +14,225 @@
 </head>
 
 <body class="bg-neutral-950 flex flex-col items-center justify-center">
+  <header>
+    <nav class="text-white flex flex-row gap-x-8 justify-center items-start">
+      <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./cards.html">Cards</a>
+      <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./input.html">Inputs</a>
+      <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./Button.html">Buttons</a>
+      <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./tweet.html">Tweet</a>
+    </nav>
+  </header>
+  <main>
+    <div class="flex flex-col items-center justify-center py-40 px-44 gap-y-8">
 
-  <div class="text-white flex flex-row gap-x-8 justify-center items-start">
-    <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./cards.html">Cards</a>
-    <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./input.html">Inputs</a>
-    <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./Button.html">Buttons</a>
-    <a class="text-white focus:border-b focus:border-twitter-blue-default" href="./tweet.html">Tweet</a>
-  </div>
+      <div class="flex  flex-row gap-x-8 items-center">
+        <div class="flex flex-col gap-y-8">
+          <!-- White buttons -->
+          <div class="flex flex-row gap-x-8">
+            <div>
+              <!-- follow -->
+              <button
+                class="bg-neutral/50 py-2 px-5 w-[5.313rem] rounded-4xl inline-flex justify-center items-center box-border hover:bg-neutral/200 disabled:opacity-50">
+                <span class="text-neutral/1000 text-sm font-bold not-italic leading-1.2 font-Inter text-center">
+                  Follow
+                </span>
+              </button>
+            </div>
 
-  <div class="flex flex-col items-center justify-center py-40 px-44 gap-y-8">
+            <div>
+              <!-- following outline -->
+              <button
+                class="py-1.5 px-4 rounded-8xl inline-flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
+                <span class="text-neutral/50 text-sm font-bold not-italic leading-1.2 font-Inter text-center">
+                  Following
+                </span>
+              </button>
+            </div>
+          </div>
 
-  <div class="flex  flex-row gap-x-8 items-center">
-    <div class="flex flex-col gap-y-8">
-      <!-- White buttons -->
-      <div class="flex flex-row gap-x-8">
-        <div>
-          <!-- follow -->
-          <button
-            class="bg-neutral/50 py-2 px-5 w-[5.313rem] rounded-4xl inline-flex justify-center items-center box-border hover:bg-neutral/200 disabled:opacity-50">
-            <span class="text-neutral/1000 text-sm font-bold not-italic leading-1.2 font-Inter text-center">
-              Follow
-            </span>
-          </button>
+          <div>
+            <!-- sign up outline-->
+            <button
+              class="bg-black py-2 px-6 w-80.5 rounded-8xl flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
+              <span class="text-twitter-blue-default text-base font-bold not-italic leading-1.2 font-Inter text-center">
+                Sign up
+              </span>
+            </button>
+          </div>
+
+          <div>
+            <!-- create account button -->
+            <button
+              class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-neutral/200 disabled:opacity-50">
+              <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+                Create account
+              </span>
+            </button>
+          </div>
+
+          <div>
+            <!-- Sign up with Google -->
+            <button
+              class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex flex-row gap-x-2 justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
+              <img class="h-6 w-6 shrink-0" src="../public/images/google.svg" alt="google logo" />
+              <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+                Sign up with Google
+              </span>
+            </button>
+          </div>
+
+          <div>
+            <!-- next -->
+            <button
+              class="bg-neutral/50 w-100 py-3 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px  hover:bg-neutral/200 disabled:opacity-50">
+              <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+                Next
+              </span>
+            </button>
+          </div>
         </div>
+        <div class="flex flex-col gap-y-8">
+          <!-- blue-buttons -->
+          <div>
+            <!-- post small -->
+            <button
+              class="bg-twitter-blue-default py-3 px-6 rounded-4xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
+              <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+                Post
+              </span>
+            </button>
+          </div>
+          <div>
+            <!-- post big -->
+            <button
+              class="bg-twitter-blue-default py-3.8 px-2.8 rounded-12xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
+              <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+                Post
+              </span>
+            </button>
+          </div>
 
-        <div>
-          <!-- following outline -->
-          <button
-            class="py-1.5 px-4 rounded-8xl inline-flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
-            <span class="text-neutral/50 text-sm font-bold not-italic leading-1.2 font-Inter text-center">
+
+
+          <div>
+            <!-- post big -->
+            <button
+              class="bg-twitter-blue-default w-100 p-5 rounded-12xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
+              <span class="text-twitter-white-100 text-base leading-1.2 not-italic font-bold text-center font-Inter">
+                Post
+              </span>
+            </button>
+          </div>
+
+
+        </div>
+        <div class="flex flex-col gap-y-8">
+
+          <div>
+            <div class="flex flex-col gap-y-5">
+              <!-- Icons -->
+              <div class="flex">
+                <div class="flex flex-row gap-x-0.5 justify-center items-end">
+                  <img class="w-10.5 h-4.5" src="../public/images/100.svg" alt="100" />
+                  <img class="w-3.2 h-3.3" src="../public/images/Group 27162.svg" alt="x" />
+                </div>
+              </div>
+              <div class="flex flex-row gap-x-5 items-center">
+                <img class="w-1 h-4" src="../public/images/more-sv.svg" alt="more icon" />
+                <img class="w-3.8 h-3.8" src="../public/images/comment-sv.svg" alt="comment icon" />
+                <img class="w-4.2 h-3.2" src="../public/images/retweet-sv.svg" alt="retweet icon" />
+                <img class="w-3.8 h-3.35" src="../public/images/heart-sv.svg" alt="heart icon" />
+                <img class="w-3 h-3.85" src="../public/images/reach-sv.svg" alt="reach icon" />
+                <img class="w-3.85 h-4.4" src="../public/images/share-sv.svg" alt="share icon" />
+                <img class="w-3.4 h-3.4" src="../public/images/calendar-sv.svg" alt="calendar icon" />
+                <img class="w-3.1 h-3.35" src="../public/images/bookmark-sv.svg" alt="bookmark icon" />
+              </div>
+              <div class="flex flex-row gap-x-5 items-center">
+                <img class="w-4.2 h-3.2" src="../public/images/retweet-sv-green.svg" alt="retweet icon" />
+                <img class="w-3.8 h-3.35" src="../public/images/heart-sv-red.svg" alt="heart icon" />
+                <img class="w-3.1 h-3.35" src="../public/images/bookmark-sv-blue.svg" alt="bookmark icon" />
+                <img class="w-3 h-3.85" src="../public/images/reach-sv-blue.svg" alt="reach icon" />
+                <img class="w-3.85 h-4.4" src="../public/images/share-sv-blue.svg" alt="share icon" />
+              </div>
+              <div class="flex flex-row gap-x-5 items-center">
+                <img class="w-6 h-6" src="../public/images/cancel.svg" alt="cancel icon" />
+                <img class="w-6 h-6" src="../public/images/back.svg" alt="back icon" />
+                <img class="w-6 h-6" src="../public/images/settings.svg" alt="setting icon" />
+                <img class="w-6 h-6" src="../public/images/correct.svg" alt="correct icon" />
+                <img class="w-6 h-6" src="../public/images/material-symbols_add-a-photo-outline.svg"
+                  alt="camera icon" />
+              </div>
+              <div class="flex flex-row gap-x-5">
+                <div class="flex flex-col justify-center items-center h-28 w-16 bg-neutral-900">
+                  <button class="group">
+                    <svg class="fill-none w-6 h-6 stroke-[#737373] group-focus:stroke-black"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25">
+                      <path
+                        d="M2 12.0256C2 12.0256 5 5.02563 12 5.02563C19 5.02563 22 12.0256 22 12.0256C22 12.0256 19 19.0256 12 19.0256C5 19.0256 2 12.0256 2 12.0256Z"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M12 15.0256C13.6569 15.0256 15 13.6825 15 12.0256C15 10.3688 13.6569 9.02563 12 9.02563C10.3431 9.02563 9 10.3688 9 12.0256C9 13.6825 10.3431 15.0256 12 15.0256Z"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
+                  <button class="group">
+                    <svg class="w-6 h-6 fill-white  group-focus:hidden" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24">
+                      <path
+                        d="M12 5.69L17 10.19V18H15V12H9V18H7V10.19L12 5.69ZM12 3L2 12H5V20H11V14H13V20H19V12H22L12 3Z" />
+                    </svg>
+                    <svg class="w-6 h-6  fill-white hidden group-focus:flex" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24">
+
+                      <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z">
+                    </svg>
+                  </button>
+
+                </div>
+                <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
+                  <button class="group">
+                    <svg class="w-6 h-6 p-1 box-border fill-none  group-focus:p-0 group-focus:fill-white"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                      <path
+                        d="M1 15C1 13.9391 1.42143 12.9217 2.17157 12.1716C2.92172 11.4214 3.93913 11 5 11H13C14.0609 11 15.0783 11.4214 15.8284 12.1716C16.5786 12.9217 17 13.9391 17 15C17 15.5304 16.7893 16.0391 16.4142 16.4142C16.0391 16.7893 15.5304 17 15 17H3C2.46957 17 1.96086 16.7893 1.58579 16.4142C1.21071 16.0391 1 15.5304 1 15Z"
+                        stroke="white" stroke-width="2" stroke-linejoin="round" />
+                      <path
+                        d="M9 7C10.6569 7 12 5.65685 12 4C12 2.34315 10.6569 1 9 1C7.34315 1 6 2.34315 6 4C6 5.65685 7.34315 7 9 7Z"
+                        stroke="white" stroke-width="2" />
+                    </svg>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+
+        <div
+          class="flex box-border w-117 h-14.5 pt-5 pr-20 pb-0 pl-20 justify-center items-center flex-shrink-0 gap-x-40 border-b border-solid border-neutral/700">
+          <button class="flex flex-col items-center justify-center gap-y-4 group">
+            <div
+              class="font-Inter text-base not-italic leading-1.2  font-medium text-neutral/50 group-focus:text-neutral/400">
+              For you
+            </div>
+            <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl hidden group-focus:flex"></div>
+          </button>
+          <button class="flex pb-0 justify-center items-center flex-col gap-y-4 group">
+            <div
+              class="font-Inter text-base not-italic font-medium leading-1.2 text-neutral/50 group-focus:text-neutral/400">
               Following
-            </span>
+            </div>
+            <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl hidden group-focus:flex"></div>
           </button>
         </div>
-      </div>
 
-      <div>
-        <!-- sign up outline-->
-        <button
-          class="bg-black py-2 px-6 w-80.5 rounded-8xl flex justify-center items-center box-border border border-solid shadow-btn backdrop-blur-23.6px border-stroke-0">
-          <span class="text-twitter-blue-default text-base font-bold not-italic leading-1.2 font-Inter text-center">
-            Sign up
-          </span>
-        </button>
-      </div>
-
-      <div>
-        <!-- create account button -->
-        <button
-          class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-neutral/200 disabled:opacity-50">
-          <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Create account
-          </span>
-        </button>
-      </div>
-
-      <div>
-        <!-- Sign up with Google -->
-        <button
-          class="bg-neutral/50 w-80.5 py-2 px-6 rounded-8xl flex flex-row gap-x-2 justify-center items-center shadow-btn box-border backdrop-blur-23.6px">
-          <img class="h-6 w-6 shrink-0" src="../public/images/google.svg" alt="google logo" />
-          <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Sign up with Google
-          </span>
-        </button>
-      </div>
-
-      <div>
-        <!-- next -->
-        <button
-          class="bg-neutral/50 w-100 py-3 px-6 rounded-8xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px  hover:bg-neutral/200 disabled:opacity-50">
-          <span class="text-neutral/1000 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Next
-          </span>
-        </button>
       </div>
     </div>
-    <div class="flex flex-col gap-y-8">
-      <!-- blue-buttons -->
-      <div>
-        <!-- post small -->
-        <button
-          class="bg-twitter-blue-default py-3 px-6 rounded-4xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
-          <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Post
-          </span>
-        </button>
-      </div>
-      <div>
-        <!-- post big -->
-        <button
-          class="bg-twitter-blue-default py-3.8 px-2.8 rounded-12xl inline-flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
-          <span class="text-neutral/50 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Post
-          </span>
-        </button>
-      </div>
-
-
-
-      <div>
-        <!-- post big -->
-        <button
-          class="bg-twitter-blue-default w-100 p-5 rounded-12xl flex justify-center items-center shadow-btn box-border backdrop-blur-23.6px hover:bg-twitter-blue-hover disabled:opacity-50">
-          <span class="text-twitter-white-100 text-base leading-1.2 not-italic font-bold text-center font-Inter">
-            Post
-          </span>
-        </button>
-      </div>
-
-
-    </div>
-    <div class="flex flex-col gap-y-8">
-
-      <div>
-        <div class="flex flex-col gap-y-5">
-          <!-- Icons -->
-          <div class="flex">
-            <div class="flex flex-row gap-x-0.5 justify-center items-end">
-              <img class="w-10.5 h-4.5" src="../public/images/100.svg" alt="100" />
-              <img class="w-3.2 h-3.3" src="../public/images/Group 27162.svg" alt="x" />
-            </div>
-          </div>
-          <div class="flex flex-row gap-x-5 items-center">
-            <img class="w-1 h-4" src="../public/images/more-sv.svg" alt="more icon" />
-            <img class="w-3.8 h-3.8" src="../public/images/comment-sv.svg" alt="comment icon" />
-            <img class="w-4.2 h-3.2" src="../public/images/retweet-sv.svg" alt="retweet icon" />
-            <img class="w-3.8 h-3.35" src="../public/images/heart-sv.svg" alt="heart icon" />
-            <img class="w-3 h-3.85" src="../public/images/reach-sv.svg" alt="reach icon" />
-            <img class="w-3.85 h-4.4" src="../public/images/share-sv.svg" alt="share icon" />
-            <img class="w-3.4 h-3.4" src="../public/images/calendar-sv.svg" alt="calendar icon" />
-            <img class="w-3.1 h-3.35" src="../public/images/bookmark-sv.svg" alt="bookmark icon" />
-          </div>
-          <div class="flex flex-row gap-x-5 items-center">
-            <img class="w-4.2 h-3.2" src="../public/images/retweet-sv-green.svg" alt="retweet icon" />
-            <img class="w-3.8 h-3.35" src="../public/images/heart-sv-red.svg" alt="heart icon" />
-            <img class="w-3.1 h-3.35" src="../public/images/bookmark-sv-blue.svg" alt="bookmark icon" />
-            <img class="w-3 h-3.85" src="../public/images/reach-sv-blue.svg" alt="reach icon" />
-            <img class="w-3.85 h-4.4" src="../public/images/share-sv-blue.svg" alt="share icon" />
-          </div>
-          <div class="flex flex-row gap-x-5 items-center">
-            <img class="w-6 h-6" src="../public/images/cancel.svg" alt="cancel icon" />
-            <img class="w-6 h-6" src="../public/images/back.svg" alt="back icon" />
-            <img class="w-6 h-6" src="../public/images/settings.svg" alt="setting icon" />
-        <img class="w-6 h-6" src="../public/images/correct.svg" alt="correct icon" />
-            <img class="w-6 h-6" src="../public/images/material-symbols_add-a-photo-outline.svg" alt="camera icon" />
-          </div>
-          <div class="flex flex-row gap-x-5">
-            <div class="flex flex-col justify-center items-center h-28 w-16 bg-neutral-900">
-             <button class="group">
-              <svg class="fill-none w-6 h-6 stroke-[#737373] group-focus:stroke-black" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 25" >
-                <path d="M2 12.0256C2 12.0256 5 5.02563 12 5.02563C19 5.02563 22 12.0256 22 12.0256C22 12.0256 19 19.0256 12 19.0256C5 19.0256 2 12.0256 2 12.0256Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M12 15.0256C13.6569 15.0256 15 13.6825 15 12.0256C15 10.3688 13.6569 9.02563 12 9.02563C10.3431 9.02563 9 10.3688 9 12.0256C9 13.6825 10.3431 15.0256 12 15.0256Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-             </button>
-            </div>
-            <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
-              <button class="group">
-                <svg class="w-6 h-6 fill-white  group-focus:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                  <path
-                    d="M12 5.69L17 10.19V18H15V12H9V18H7V10.19L12 5.69ZM12 3L2 12H5V20H11V14H13V20H19V12H22L12 3Z" />
-                </svg>
-                <svg class="w-6 h-6  fill-white hidden group-focus:flex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-
-                  <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z">
-                </svg>
-              </button>
-             
-            </div>
-            <div class="flex flex-col justify-center items-center gap-y-5 h-28 w-16">
-              <button class="group">
-                <svg class="w-6 h-6 p-1 box-border fill-none  group-focus:p-0 group-focus:fill-white"
-                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-                  <path
-                    d="M1 15C1 13.9391 1.42143 12.9217 2.17157 12.1716C2.92172 11.4214 3.93913 11 5 11H13C14.0609 11 15.0783 11.4214 15.8284 12.1716C16.5786 12.9217 17 13.9391 17 15C17 15.5304 16.7893 16.0391 16.4142 16.4142C16.0391 16.7893 15.5304 17 15 17H3C2.46957 17 1.96086 16.7893 1.58579 16.4142C1.21071 16.0391 1 15.5304 1 15Z"
-                    stroke="white" stroke-width="2" stroke-linejoin="round" />
-                  <path
-                    d="M9 7C10.6569 7 12 5.65685 12 4C12 2.34315 10.6569 1 9 1C7.34315 1 6 2.34315 6 4C6 5.65685 7.34315 7 9 7Z"
-                    stroke="white" stroke-width="2" />
-                </svg>
-              </button>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="flex justify-center">
-
-    <div
-      class="flex box-border w-117 h-14.5 pt-5 pr-20 pb-0 pl-20 justify-center items-center flex-shrink-0 gap-x-40 border-b border-solid border-neutral/700">
-      <button class="flex flex-col items-center justify-center gap-y-4 group">
-        <div class="font-Inter text-base not-italic leading-1.2  font-medium text-neutral/50 group-focus:text-neutral/400">
-          For you
-        </div>
-        <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl hidden group-focus:flex"></div>
-      </button>
-      <button class="flex pb-0 justify-center items-center flex-col gap-y-4 group">
-        <div class="font-Inter text-base not-italic font-medium leading-1.2 text-neutral/50 group-focus:text-neutral/400">
-          Following
-        </div>
-        <div class="bg-twitter-blue-default w-14 h-0.4 rounded-4xl hidden group-focus:flex"></div>
-      </button>
-    </div>
-
-  </div>
-</div>
+  </main>
 </body>
 
 </html>
